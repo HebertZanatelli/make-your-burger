@@ -138,6 +138,21 @@
       "opcionais": [],
       "status": "Solicitado",
       "id": 6
+    },
+    {
+      "nome": "Thais",
+      "carne": "Veggie burger",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Bacon",
+        "Cheddar",
+        "Salame",
+        "Tomate",
+        "Cebola roxa",
+        "Pepino"
+      ],
+      "status": "Solicitado",
+      "id": 7
     }
   ]
 }

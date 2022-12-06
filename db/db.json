@@ -77,37 +77,5 @@
       "tipo": "Finalizado"
     }
   ],
-  "burgers": [
-    {
-      "nome": "Junior",
-      "carne": "Maminha",
-      "pao": "Parmesão e Orégano",
-      "opcionais": [
-        "Tomate",
-        "Pepino"
-      ],
-      "status": "Solicitado",
-      "id": 1
-    },
-    {
-      "nome": "testando",
-      "carne": "Alcatra",
-      "pao": "Parmesão e Orégano",
-      "opcionais": [
-        "Bacon"
-      ],
-      "status": "Solicitado",
-      "id": 2
-    },
-    {
-      "nome": "Enzo",
-      "carne": "Veggie burger",
-      "pao": "Integral",
-      "opcionais": [
-        "Tomate"
-      ],
-      "status": "Finalizado",
-      "id": 3
-    }
-  ]
+  "burgers": []
 }

@@ -108,11 +108,11 @@ export default {
 
       const res = await req.json();
 
-      this.msg = `Pedido No. ${res.id} realiado com sucesso`
+      this.msg = `Pedido No. ${res.id} realizado com sucesso`
 
       setTimeout(() => {
         this.msg = ''
-      }, 2000)
+      }, 3000)
 
       this.nome = "";
       this.carne = "";

@@ -79,63 +79,17 @@
   ],
   "burgers": [
     {
-      "nome": "Hebert Augusto",
-      "carne": "Maminha",
-      "pao": "Parmesão e Orégano",
-      "opcionais": [
-        "Cheddar",
-        "Bacon"
-      ],
-      "status": "Solicitado",
-      "id": 1
-    },
-    {
-      "nome": "João Pedro",
-      "carne": "Alcatra",
-      "pao": "Italiano Branco",
+      "nome": "eu mesmo",
+      "carne": "Picanha",
+      "pao": "3 Queijos",
       "opcionais": [
         "Bacon",
+        "Cebola roxa",
+        "Tomate",
         "Cheddar"
       ],
       "status": "Solicitado",
-      "id": 2
-    },
-    {
-      "nome": "Enzo",
-      "carne": "Veggie burger",
-      "pao": "Integral",
-      "opcionais": [
-        "Cebola roxa",
-        "Tomate",
-        "Pepino"
-      ],
-      "status": "Solicitado",
-      "id": 3
-    },
-    {
-      "nome": "Zézim das cove",
-      "carne": "Alcatra",
-      "pao": "Parmesão e Orégano",
-      "opcionais": [
-        "Bacon",
-        "Cheddar",
-        "Tomate",
-        "Pepino"
-      ],
-      "status": "Solicitado",
-      "id": 4
-    },
-    {
-      "nome": "ddfsf",
-      "carne": "Picanha",
-      "pao": "Parmesão e Orégano",
-      "opcionais": [
-        "Bacon",
-        "Tomate",
-        "Pepino"
-      ],
-      "status": "Solicitado",
-      "id": 5
+      "id": 1
     }
   ]
 }

@@ -30,11 +30,22 @@
             </option>
           </select>
         </div>
-        <div id="opcionais-container" class="input-container" >
-          <label id="opcionais-title" for="opcionais" >Selecione os opicionais:</label>
-          <div class="checkbox-container" v-for="opcional in opcionaisdata" :key="opcional.id" >
-            <input type="checkbox" name="opcionais" v-model="opcionais" :value="opcional.tipo">
-            <span>{{opcional.tipo}}</span>
+        <div id="opcionais-container" class="input-container">
+          <label id="opcionais-title" for="opcionais"
+            >Selecione os opicionais:</label
+          >
+          <div
+            class="checkbox-container"
+            v-for="opcional in opcionaisdata"
+            :key="opcional.id"
+          >
+            <input
+              type="checkbox"
+              name="opcionais"
+              v-model="opcionais"
+              :value="opcional.tipo"
+            />
+            <span>{{ opcional.tipo }}</span>
           </div>
         </div>
 
@@ -75,32 +86,32 @@ export default {
       this.carnes = data.carnes;
       this.opcionaisdata = data.opcionais;
     },
-    async createBurger(e){
-      e.preventDefault()
+    async createBurger(e) {
+      e.preventDefault();
 
       const data = {
         nome: this.nome,
         carne: this.carne,
         pao: this.pao,
         opcionais: Array.from(this.opcionais),
-        status: 'Solicitado'
-      }
-      
-      const dataJson = JSON.stringify(data)
-      const req = await fetch('http://localhost:3000/burgers', {
-        method: 'POST',
-        headers: {'Content-Type': 'application/json'},
-        body: dataJson
-      })
+        status: "Solicitado",
+      };
 
-      const res = await req.json()
+      const dataJson = JSON.stringify(data);
+      const req = await fetch("http://localhost:3000/burgers", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: dataJson,
+      });
 
-      console.log(res)
+      const res = await req.json();
 
-      this.nome = ''
-      this.carne = ''
-      this.pao = ''
-      this.opcionais = []
+      console.log(res);
+
+      this.nome = "";
+      this.carne = "";
+      this.pao = "";
+      this.opcionais = [];
     },
   },
   mounted() {
